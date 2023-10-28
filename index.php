@@ -11,10 +11,16 @@
 
 <body>
     <div class="container-fluid">
+<<<<<<< HEAD
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="#">ONLINE COURSE</a>
+=======
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Onilne Course</a>
+>>>>>>> d58999c83050b005cdf3c18490db9c8e140975cc
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
