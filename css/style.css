@@ -1,0 +1,57 @@
+.ragister{
+    
+    background-color: rgba(245, 245, 245, 0.441);
+    border-radius: 20px;
+    position: absolute; 
+    top: 20%; left: 60%; 
+    transform: translate(-20%, -20%);
+    box-shadow: -2px -0px 5px  white;
+}
+
+@media (max-width: 600px) {
+    .ragister {
+      position: relative; 
+      background-color:rgb(217 217 217 / 31%);
+      border-radius: 20px;
+      left: 20%; 
+box-shadow: -7px 19px 12px #0000004d;;
+
+margin-top: 15vh;
+    }
+    
+  }
+@media (max-width: 600px) {
+    .slidethumb video{
+height: 80vh;
+position: absolute; 
+    }
+  }
+
+@media (max-width: 992px) {
+    .ragister {
+      position: relative; 
+      background-color:rgb(217 217 217 / 31%);
+      border-radius: 20px;
+      left: 20%; 
+box-shadow: -7px 19px 12px #0000004d;;
+width: 100vw;
+margin-top: 15vh;
+    }
+    
+  }
+@media (max-width: 992px) {
+    .slidethumb video{
+height: 90vh;
+
+position: absolute; 
+    }
+  }
+
+.mb-3{
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.form-control{
+box-shadow: -2px 0px 10px  white;
+}
