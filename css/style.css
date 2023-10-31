@@ -1,66 +1,113 @@
-.ragister {
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+.header{
+  box-shadow: 1px 20px 45px rgb(164, 5, 5);
+ 
+}
 
-  background-color: rgba(245, 245, 245, 0.441);
+ video{
+  height: 100vh;
+  width: 98vw;
+}
+.slidevideo{
+
+  box-shadow: 0px 376px 22px rgba(0, 0, 0, 0.249);
+}
+.ragister {
+  background-color: rgba(0, 0, 0, 0.238);
   border-radius: 20px;
   position: absolute;
-  top: 20%;
-  left: 60%;
-  transform: translate(-20%, -20%);
-  box-shadow: -2px -0px 5px white;
+  top: 54%;
+  left: 52%;
+  transform: translate(-50%, -30%);
+  box-shadow: -2px -0px 5px black;
 }
 
-.slidethumb {
-  position: relative;
-}
 
-@media (max-width: 600px) {
-  .ragister {
-    position: relative;
-    background-color: rgb(217 217 217 / 31%);
-    border-radius: 20px;
-    left: 20%;
-    box-shadow: -7px 19px 12px #0000004d;
-    ;
-
-    margin-top: 15vh;
-  }
-
-}
-
-@media (max-width: 600px) {
-  .slidethumb video {
-    height: 80vh;
-    position: absolute;
-  }
-}
-
-@media (max-width: 992px) {
-  .ragister {
-    position: relative;
-    background-color: rgb(217 217 217 / 31%);
-    border-radius: 20px;
-    left: 20%;
-    box-shadow: -7px 19px 12px #0000004d;
-    ;
-    width: 100vw;
-    margin-top: 15vh;
-  }
-
-}
-
-@media (max-width: 992px) {
-  .slidethumb video {
-    height: 90vh;
-
-    position: absolute;
-  }
-}
-
-.mb-3 {
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 .form-control {
   box-shadow: -2px 0px 10px white;
+}
+
+.main_content {
+  background-color: rgb(255 192 203 / 28%);
+  box-shadow: 5px 10px 35px rgb(255 192 203 / 28%);
+  
+}
+
+
+.submain-contentrow{
+  justify-content: space-evenly;
+}
+
+.blurb_heading {
+  padding-left: 3em;
+
+}
+.blurb_heading2 {
+  padding-left: 3em;
+
+}
+
+.blurb_heading,.blurb_heading2 a {
+  text-decoration: none;
+
+}
+
+.blurb_description {
+  position: relative;
+  margin-left: 75px;
+  margin-right: 20px;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submain_content_card  {
+  justify-content: space-evenly;
+}
+
+/* submain content2 */
+.submain_content2 {
+  background-color: rgb(255 192 203 / 28%);
+  margin-top: 5em;
+}
+
+.submain_content_3story{
+justify-content: space-evenly;
+margin-left:20px ;
+margin-bottom: 100px;
+}
+
+#profile {
+  height: 100px;
+  width: 100px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
+
+.blurb_description3 {
+  position: relative;
+  margin-left: 105px;
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submain-content3 {
+  height: 70vh;
+  margin-top: 5em;
+  margin-right: 40px;
+}
+
+.blurb_heading3 {
+  padding-left: 5.7em;
+ 
+}
+
+.blurb_heading a {
+  text-decoration: none;
 }
