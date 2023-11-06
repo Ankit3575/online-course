@@ -15,13 +15,13 @@
             <div class="header col-sm-12 text-align-center fs-6 fw-bold bg-danger ">
                 <nav class="navbar navbar-expand-lg ">
                     <div class="container-fluid">
-                         <a class="navbar-brand" href="#">Navbar</a>
+                        <a class="navbar-brand" href="home.php">Navbar</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="#">LEARNATHON</a>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -38,9 +38,6 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" aria-disabled="true">CONTACT</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-disabled="true">SIGNUP</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search">
@@ -59,7 +56,7 @@
         <div class="slidevideo">
             <div class="row">
                 <div class="col-sm-12">
-                    <video loop="loop" controls autoplay>
+                    <video loop="loop" controls muted autoplay>
                         <source src="image/thumbenail.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -68,33 +65,33 @@
         <!-- signup -->
         <div class="row">
             <div class="col-sm-4 ragister">
-                <form action="" method="post">
+                <form action="logincode.php" method="post">
                     <h5 class="align-items-center text-center p-3 fs-5 ">Register today and take your
                         academics to the next level!</h5>
                     <div class="mb-3 opacity-75 ">
                         <label for="exampleInputName" class="form-label"></label>
-                        <input type="name" class="form-control border border-white" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                        <input type="text" class="form-control border border-white" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Your Name" name="name">
                     </div>
                     <div class="mb-3 opacity-75 ">
                         <label for="exampleInputEmail1" class="form-label"></label>
-                        <input type="email" class="form-control border border-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
+                        <input type="email" class="form-control border border-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email" name="email">
                     </div>
                     <div class="mb-3 opacity-75 ">
-                        <label for="exampleInputEmail1" class="form-label"></label>
-                        <input type="email" class="form-control border border-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact">
+                        <label for="exampleInputEmail2" class="form-label"></label>
+                        <input type="number" class="form-control border border-white" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Enter Your Contact" name="contact">
                     </div>
                     <div class="mb-3 opacity-75 ">
-                        <label for="exampleInputEmail1" class="form-label"></label>
-                        <input type="email" class="form-control border border-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Course">
+                        <label for="exampleInputEmail3" class="form-label"></label>
+                        <input type="text" class="form-control border border-white" id="exampleInputEmail3" aria-describedby="emailHelp" placeholder="Enter Your Course" name="course">
                     </div>
                     <div class="mb-3 opacity-75 ">
-                        <label for="exampleInputEmail1" class="form-label"></label>
-                        <input type="email" class="form-control border border-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Course">
+                        <label for="exampleInputEmail4" class="form-label"></label>
+                        <input type="text" class="form-control border border-white" id="exampleInputEmail4" aria-describedby="emailHelp" placeholder="Enter Your Location" name="location">
                     </div>
 
                     <div class="mb-3 opacity-75">
                         <label for="exampleInputButton1" class="form-label"></label>
-                        <input type="submit" class="form-control btn btn-warning  text-white border border-white" value="Request A CallBack">
+                        <input type="submit" class="form-control btn btn-warning  text-white border border-white" value="Request A CallBack" name="call">
                     </div>
 
                 </form>

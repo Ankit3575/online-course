@@ -3,6 +3,12 @@
   padding: 0;
  
 }
+/* signup */
+.w-400{
+  width: 400px;
+}
+
+
 .header{
   box-shadow: 1px 20px 45px rgb(164, 5, 5);
  
